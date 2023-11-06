@@ -1,8 +1,8 @@
 from src.hoppysearch.hs_api import HoppySearch
 from src.hoppysearch.rest import ApiException
 
-index_id ="lucene-serverless"
-api_key ="hs_f3vrd6tqwzcc01oh"
+index_id ="vqgdna"
+api_key ="hs_llysnhls1ljt6020"
 hoppysearch = HoppySearch(index_id, api_key )
 
 

@@ -25,7 +25,7 @@ class HoppySearch(GeneralApi):
             raise TypeError("Both indexId and apiKey are mandatory")
         
         config = Configuration(index_id)
-        config.api_key['Authorization'] = 'hs_f3vrd6tqwzcc01oh'
+        config.api_key['Authorization'] = api_key
 
         super().__init__()
 
